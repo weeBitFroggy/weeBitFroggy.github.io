@@ -1,8 +1,7 @@
 /*css*/
 
+
 body {
-	
-	
 	font-family: sans-serif;
 	margin-left: auto;
 	margin-right: auto;
@@ -23,19 +22,17 @@ html{
 }
 
 aside{
+	max-width: 50px;
+	max-height: 20px;
 	background-color: #95C2F4;
 	border: 2px #001833;
 	border-radius: 10px;
-	
+	color: white;
 	font-family: sans-serif;
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 1532px;
-	min-width:256px;
-	padding-top:8px;
-	padding-bottom: 24px;
-	padding-left: 24px;
-	padding-right: 24px;
+	padding-bottom: 15px;
+	padding-left: 5px;
 }
 
 article{
@@ -81,25 +78,17 @@ section {
 		margin-right: 12px;
 	}
 	
-		img.mediumright {
-		float:right;
-		height: 256px;
-		width: 455px;
-		margin-top: 12px;
-		margin-bottom: 24px;
-		margin-right: 12px;
-	}
 
 @media all and (min-width: 500px)
 {
 	article {
 		float: right;
-		width: 66%;
+		width: 80%;
 	}
 	aside {
 		float:left;
 		padding-right: 24px;
-		width: 25%;
+		width: 18%;
 	}
 	footer{
 		clear:both;
